@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  background-color: #00151a;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Navigation bar on top*/
+.navbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: Impact, Charcoal, sans-serif;
+}
+/*Reel logo sizing*/
+.reel_logo {
+  height: 100px;
+  margin-right: 10px;
+}
+/*"ReelReview" font changes*/
+.nav_title {
+  color: #1e5c5c;
+  font-weight: 500;
+  font-size: 30px;
+}
+/*Features in the middle of the movie poster*/
+.Hero {
+  flex-direction: column;
+  text-align: center;
   color: white;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.features {
+  font-size: 20px;
+  padding-block: 10px;
+  line-height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Movie poster sizing*/
+.movie-container {
+  background-image: url("./images/movie_poster.png");
+  background-color: rgba(36, 36, 36, 0.493);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  border: 2px solid black;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 175px;
+}
+
+.card-section {
+  font-size: 100%;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-style: italic;
+  color: white;
+  padding: 10px 10px;
+}
+
+.card-image {
+  width: 100%;
+  margin-left: 10px;
 }
