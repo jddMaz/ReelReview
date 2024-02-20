@@ -7,12 +7,18 @@ ReelReview (Movie Review Webapp)
 The goal of our Movie Review webapp is to build a website that alllows the user to browse through movies and leave reviews. Key functions will include:
 
 - Trending Now: Discover popular movies based on real-time ratings.
-  -User Reviews: Read and write detailed reviews.
-  -Advanced Search: Filter movies by genre, year, rating, and more.
-  -Community Discussions: Engage in forums and comment sections.
-  -Watchlist & History: Track and save movies.
-  -Interactive Rating System: Rate movies on various criteria.
-  -Notifications & Alerts: Stay updated on new releases and reviews.
+
+-User Reviews: Read and write detailed reviews.
+
+-Advanced Search: Filter movies by genre, year, rating, and more.
+
+-Community Discussions: Engage in forums and comment sections.
+
+-Watchlist & History: Track and save movies.
+
+-Interactive Rating System: Rate movies on various criteria.
+
+-Notifications & Alerts: Stay updated on new releases and reviews.
 
 ## Available Scripts
 
