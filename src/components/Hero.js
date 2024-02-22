@@ -1,5 +1,5 @@
 import React from "react";
-import FeatureButton from "./FeatureButton"; // Import FeatureButton component
+import FeatureButton from "./FeatureButton";
 
 //Hero function component is the giant movie collage
 export default function Hero() {
@@ -19,11 +19,11 @@ export default function Hero() {
         />
         <FeatureButton
           //icon="icon-heart"
-          text="Rate each film on a five star scale"
+          text="Discover popular movies based on real ratings"
         />
         <FeatureButton
           //icon="icon-heart"
-          text="Write and Share Reviews, and view others"
+          text="Filter movies by genre, year, rating and more"
         />
       </div>
     </div>

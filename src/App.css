@@ -64,6 +64,7 @@ body {
 .moviePoster > img {
   width: 175px;
   margin-left: 10px;
+  border-radius: 5px;
 }
 
 .movie {
@@ -81,20 +82,21 @@ body {
   flex-direction: row; /* This will lay out the children (buttons) in a row */
   justify-content: center; /* This will center the buttons in the container */
   align-items: center; /* This will vertically align the buttons in the container */
-  gap: 0px; /* This sets a gap between each button */
+  gap: 5px; /* This sets a gap between each button */
 }
 
 .feature-button {
   background-color: #333; /* Dark grey background */
   color: white; /* White text */
   padding: 20px;
-  margin: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
   transition: background-color 0.3s; /* Transition for hover effect */
-  text-align: center;
   cursor: pointer; /* Change cursor on hover */
   width: 200px;
+  max-height: 50px;
 }
 
 .feature-button:hover {
@@ -104,5 +106,5 @@ body {
 .feature-text {
   font-size: 16px; /* Adjust font size as needed */
   font-weight: bold; /* Bold font */
-  margin-left: 12px; /* Space between icon and text if you add icons later */
+  margin-left: 0px; /* Space between icon and text if you add icons later */
 }
