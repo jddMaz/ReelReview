@@ -8,18 +8,18 @@ body {
   background-color: #00151a;
 }
 /*Navigation bar on top*/
-.navbar {
+.navBar {
   display: flex;
   align-items: center;
   font-family: Impact, Charcoal, sans-serif;
 }
 /*Reel logo sizing*/
-.reel_logo {
+.reelLogo {
   height: 100px;
   margin-right: 10px;
 }
 /*"ReelReview" font changes*/
-.nav_title {
+.navTitle {
   color: #1e5c5c;
   font-weight: 500;
   font-size: 30px;
@@ -31,15 +31,15 @@ body {
   color: white;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
-.features {
+/*Slogan*/
+.heroFeatures {
   font-size: 20px;
   padding-block: 10px;
   line-height: 30px;
 }
 
 /*Movie poster sizing*/
-.movie-container {
+.heroContainer {
   background-image: url("./images/movie_poster.png");
   background-color: rgba(36, 36, 36, 0.493);
   background-position: center;
@@ -52,20 +52,26 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.card {
-  width: 175px;
-}
-
-.card-section {
+/*Description of the movies*/
+.movieSection {
   font-size: 100%;
   font-family: Tahoma, Geneva, sans-serif;
   font-style: italic;
   color: white;
   padding: 10px 10px;
 }
-
-.card-image {
-  width: 100%;
+/*Sizing of movie poster*/
+.moviePoster > img {
+  width: 175px;
   margin-left: 10px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 10px;
 }

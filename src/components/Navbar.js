@@ -1,11 +1,11 @@
 import React from "react";
 import reel from "../images/reel.png";
-
+//Navigation bar at top of website
 export default function Navbar() {
   return (
-    <nav className="navbar">
-      <img src={reel} className="reel_logo" />
-      <h1 className="nav_title">ReelReview </h1>
+    <nav className="navBar">
+      <img src={reel} className="reelLogo" />
+      <h1 className="navTitle">ReelReview </h1>
     </nav>
   );
 }
