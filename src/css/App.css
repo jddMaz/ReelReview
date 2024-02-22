@@ -40,7 +40,7 @@ body {
 
 /*Movie poster sizing*/
 .heroContainer {
-  background-image: url("./images/movie_poster.png");
+  background-image: url("../images/movie_poster.png");
   background-color: rgba(36, 36, 36, 0.493);
   background-position: center;
   background-repeat: no-repeat;
@@ -66,22 +66,15 @@ body {
   margin-left: 10px;
   border-radius: 5px;
 }
-
-.movie {
-  display: flex;
-  flex-direction: column;
-}
-
+/*Movie poster section displayed in a row */
 .cardContainer {
   display: flex;
   gap: 10px;
 }
 
 .buttonContainer {
-  display: flex;
-  flex-direction: row; /* This will lay out the children (buttons) in a row */
+  display: flex; /* This will lay out the children (buttons) in a row */
   justify-content: center; /* This will center the buttons in the container */
-  align-items: center; /* This will vertically align the buttons in the container */
   gap: 5px; /* This sets a gap between each button */
 }
 
@@ -92,7 +85,6 @@ body {
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
   transition: background-color 0.3s; /* Transition for hover effect */
   cursor: pointer; /* Change cursor on hover */
   width: 200px;

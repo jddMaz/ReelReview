@@ -12,8 +12,6 @@ The goal of our Movie Review webapp is to build a website that alllows the user 
 
 - Advanced Search: Filter movies by genre, year, rating, and more.
 
-- Community Discussions: Engage in forums and comment sections.
-
 - Watchlist & History: Track and save movies.
 
 - Interactive Rating System: Rate movies on various criteria.
