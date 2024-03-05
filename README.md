@@ -1,9 +1,3 @@
-## API Requests
-
-API_URL = "https://api.themoviedb.org/3/movie/popular?api_key=06a334dd29c2d53f37b2d8aae2b6a053"
-
-API_IMG = "
-
 ## Project title
 
 ReelReview (Movie Review Webapp)
