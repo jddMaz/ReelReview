@@ -1,41 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   margin: 0;
   background-color: #00151a;
-}
-/*Navigation bar on top*/
-.navBar {
-  display: flex;
-  align-items: center;
-  font-family: Impact, Charcoal, sans-serif;
-}
-/*Reel logo sizing*/
-.reelLogo {
-  height: 100px;
-  margin-right: 10px;
-}
-/*"ReelReview" font changes*/
-.navTitle {
-  color: #1e5c5c;
-  font-weight: 500;
-  font-size: 30px;
-}
-/*Features in the middle of the movie poster*/
-.Hero {
-  flex-direction: column;
-  text-align: center;
-  color: white;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-/*Slogan*/
-.heroFeatures {
-  font-size: 20px;
-  padding-block: 10px;
-  line-height: 30px;
 }
 
 /*Movie poster sizing*/
@@ -53,7 +18,7 @@ body {
   align-items: center;
 }
 /*Description of the movies*/
-.movieSection {
+.CardTitle {
   font-size: 100%;
   font-family: Tahoma, Geneva, sans-serif;
   font-style: italic;
@@ -61,42 +26,17 @@ body {
   padding: 10px 10px;
 }
 /*Sizing of movie poster*/
-.moviePoster > img {
-  width: 175px;
+.CardPoster {
+  max-height: 120px;
   margin-left: 10px;
   border-radius: 5px;
 }
-/*Movie poster section displayed in a row */
-.cardContainer {
+
+.Card {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  padding: 0.3% 0;
   display: flex;
-  gap: 10px;
-}
-
-.buttonContainer {
-  display: flex; /* This will lay out the children (buttons) in a row */
-  justify-content: center; /* This will center the buttons in the container */
-  gap: 5px; /* This sets a gap between each button */
-}
-
-.feature-button {
-  background-color: #333; /* Dark grey background */
-  color: white; /* White text */
-  padding: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 8px; /* Rounded corners */
-  transition: background-color 0.3s; /* Transition for hover effect */
-  cursor: pointer; /* Change cursor on hover */
-  width: 200px;
-  max-height: 50px;
-}
-
-.feature-button:hover {
-  background-color: #444; /* Slightly lighter grey on hover */
-}
-
-.feature-text {
-  font-size: 16px; /* Adjust font size as needed */
-  font-weight: bold; /* Bold font */
-  margin-left: 0px; /* Space between icon and text if you add icons later */
+  justify-content: center;
 }
