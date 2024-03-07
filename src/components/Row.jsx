@@ -9,6 +9,7 @@ const Row = ({ title, fetchURL, rowID }) => {
   useEffect(() => {
     axios.get(fetchURL).then((response) => {
       setMovies(response.data.results);
+      console.log(response.data.results);
     });
   }, [fetchURL]);
 
