@@ -17,27 +17,3 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* DO NOT DELETE
-.CardTitle {
-  font-size: 100%;
-  font-family: Tahoma, Geneva, sans-serif;
-  font-style: italic;
-  color: white;
-  padding: 10px 10px;
-}
-
-.CardPoster {
-  max-height: 120px;
-  margin-left: 10px;
-  border-radius: 5px;
-}
-
-.Card {
-  position: fixed;
-  bottom: 0;
-  z-index: 100;
-  padding: 0.3% 0;
-  display: flex;
-  justify-content: center;
-}
-*/
