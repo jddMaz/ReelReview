@@ -6,7 +6,18 @@ import { UserAuth } from "../context/AuthContext";
 // Navigation bar at top of website
 const Navbar = () => {
   const { user, logOut } = UserAuth();
-//console.log(user.email)
+  const navigate = useNavigate();
+  //console.log(user.email)
+
+  const handleLogout = async () => {
+    try {
+      await logOut();
+      navigate("/");
+    } catch (error) {
+      console.log(error);
+    }
+   }
+
 
   return (
     <div class="flex items-center justify-between p-4 ">
