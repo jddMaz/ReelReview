@@ -10,15 +10,15 @@ const Movie = ({ item }) => {
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
   return (
-    <div class="w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px] inline-block cursor-pointer relative p-2">
+    <div className="w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px] inline-block cursor-pointer relative p-2">
       <img
-        class="w-full h-auto block"
+        className="w-full h-auto block"
         src={`https://image.tmdb.org/t/p/w500/${item?.backdrop_path}`}
         alt={item?.title}
       />
-      <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center hover:bg-black/80 opacity-0 hover:opacity-100 text-white">
+      <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center hover:bg-black/80 opacity-0 hover:opacity-100 text-white">
         <button
-          class="white-space-normal text-xs md:text-sm font-bold flex justify-center items-center h-full text-center"
+          className="white-space-normal text-xs md:text-sm font-bold flex justify-center items-center h-full text-center"
           onClick={handleShow}
         >
           {item?.title}

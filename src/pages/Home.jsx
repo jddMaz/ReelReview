@@ -1,7 +1,7 @@
 import React from "react";
+
 import Hero from "../components/Hero";
 import Row from "../components/Row";
-import { Link } from "react-router-dom";
 import requests from "../Requests";
 //Home page is the first page the users will see
 const Home = () => {
