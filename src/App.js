@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import MovieGrid from "./pages/MovieGrid";
+import Films from "./pages/Films";
 import requests from "./Requests";
+import Description from "./pages/Description";
 import { Route, Routes, Navigate } from "react-router-dom";
 import "./css/App.css";
 //Builds all components and pages together
@@ -12,13 +13,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
-          path="/movie_grid"
-          element={<Navigate replace to="/movie_grid/page/1" />}
+          path="/films"
+          element={<Navigate replace to="/films/page/1" />}
         />
         <Route
-          path="/movie_grid/page/:pageNumber"
-          element={<MovieGrid fetchURL={requests.requestMovie} />}
+          path="/films/page/:pageNumber"
+          element={<Films fetchURL={requests.requestMovie} />}
         />
+        <Route path="/films/description/:movieId" element={<Description />} />
       </Routes>
     </>
   );

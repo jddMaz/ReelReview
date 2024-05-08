@@ -16,7 +16,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div>
-        <Link to="/movie_grid">
+        <Link to="/films">
           <button className="text-white px-6 py-2 rounded-lg shadow-lg transform transition hover:scale-95 hover:bg-gray-700">
             Films
           </button>
