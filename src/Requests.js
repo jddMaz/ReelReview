@@ -11,6 +11,7 @@ const requests = {
   requestReview: `https://api.themoviedb.org/3/movie/{movie_id}/reviews?api_key=${key}&language=en-US`,
   requestRecommendations: `https://api.themoviedb.org/3/movie/{movie_id}/recommendations?api_key=${key}&language=en-US`,
   requestVideos: `https://api.themoviedb.org/3/movie/{movie_id}/videos?api_key=${key}&language=en-US`,
+  requestGenre: `https://api.themoviedb.org/3/genre/movie/list?api_key=${key}`,
 };
 
 export default requests;

@@ -104,7 +104,7 @@ const Films = ({ fetchURL }) => {
             onChange={(e) => setSearchQuery(e.target.value)}
           />
           <button
-            onClick={handleSearchClick()}
+            onClick={handleSearchClick}
             className="absolute inset-y-0 right-0 rounded-full p-2 flex items-center justify-center text-sm"
           ></button>
         </div>
